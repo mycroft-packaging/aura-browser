@@ -1,0 +1,21 @@
+Source: aura-browser
+Section: kde
+Priority: optional
+Maintainer: Harald Sitter <sitter@kde.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 10),
+               extra-cmake-modules (>= 1.7.0~),
+               kirigami2-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.10),
+               qtdeclarative5-dev,
+               qtquickcontrols2-5-dev,
+               qtwebengine5-dev
+Standards-Version: 3.9.8
+
+Package: aura-browser
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: ((TBD))
+ ((TBD))
