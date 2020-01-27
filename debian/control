@@ -16,6 +16,10 @@ Standards-Version: 3.9.8
 
 Package: aura-browser
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-qtwebengine,
+         qml-module-qtwebchannel,
+         qml-module-qtquick-localstorage,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: ((TBD))
  ((TBD))
