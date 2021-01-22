@@ -11,13 +11,15 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.10),
                qtdeclarative5-dev,
                qtquickcontrols2-5-dev,
-               qtwebengine5-dev
+               qtwebengine5-dev,
+               qtmultimedia5-dev
 Standards-Version: 3.9.8
 
 Package: aura-browser
 Architecture: any
 Depends: qml-module-qtwebengine,
          qml-module-qtwebchannel,
+         qml-module-qtmultimedia,
          qml-module-qtquick-localstorage,
          ${misc:Depends},
          ${shlibs:Depends}
