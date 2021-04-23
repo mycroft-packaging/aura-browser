@@ -21,6 +21,7 @@ Depends: qml-module-qtwebengine,
          qml-module-qtwebchannel,
          qml-module-qtmultimedia,
          qml-module-qtquick-localstorage,
+         qml-module-qtwebsockets,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: ((TBD))
